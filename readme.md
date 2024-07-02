@@ -26,3 +26,6 @@ Write the POST route:
     Below the URL bar, select Body, select raw, and then make sure that the data format dropdown to the right has JSON.
     In the body, enter the {"txt": "xyz","ranking": 4}, and then select the Beautify text to the right of the data format. Notice that as long as the data has the correct syntax, Postman formats your body data in an easy-to-read format.
     Save your request
+
+/\***_ GitHub - creating repository _**/
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
