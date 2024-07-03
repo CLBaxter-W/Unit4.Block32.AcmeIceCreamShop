@@ -14,6 +14,10 @@ app.use(require("morgan")("dev"));
 const client = new pg.Client(
   process.env.DATABASE_URL || "postgres://localhost/acme_ice_cream_db"
 );
+/* // if you have a password 
+const client = new pg.Client(
+  process.env.DATABASE_URL || "postgres://postgres:yourpassword@localhost/acme_notes_db",
+); */
 
 const port = process.env.PORT || 3000;
 
